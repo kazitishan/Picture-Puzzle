@@ -1,0 +1,53 @@
+body {
+    background-color: skyblue;
+    margin: 0;
+ }
+ 
+ 
+ h1{
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    color: white;
+ }
+ 
+ 
+ p{
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    color: white;
+ }
+ 
+ 
+ .container {
+    display: grid;
+    grid-template-columns: 172.8px 172.8px 172.8px 172.8px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+ }
+ 
+ 
+ img {
+    border: 1px solid white;
+ }
+ 
+ 
+ button {
+    display: block;
+    margin: 15px auto 0;
+    padding: 15px 20px;
+    font-family: 'Comic Sans MS', cursive;
+    background-color: white;
+    color: skyblue;
+    border: 1px solid skyblue;
+ }
+ 
+ 
+ /* https://www.shecodes.io/athena/26736-how-to-make-a-button-hover-using-css#:~:text=You%20can%20add%20a%20hover,CSS%20%3Ahover%20pseudo%2Dclass.&text=This%20CSS%20code%20will%20cause,hovers%20their%20mouse%20over%20it. */
+ button:hover {
+    background-color: skyblue;
+    color: white;
+ }
+ 
+ 
